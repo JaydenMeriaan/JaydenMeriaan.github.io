@@ -2,68 +2,57 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-
-    
-    <link rel="stylesheet" href="style.css">
-
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"></script>
-
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jayden Meriaan - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="bg-dark text-white d-flex flex-column min-vh-100">
 
-    <div class="container-fluid">
-
-
-        <nav class="navbar navbar-expand-lg bg-warning">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <!-- ✅ Navbar -->
+    <nav class="navbar navbar-expand-lg bg-secondary sticky-top">
+        <div class="container">
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white fs-4" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-4" href="academy.html">Academy/Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Academy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Project</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link text-white fs-4" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-4" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <div class="row align-items-center text-center">
-            <div class="col-md-6 height bg-secondary pe-3">
-                <h1>Me</h1>
-                <br>
-                <img src="img/OSK.jpg" alt="" width="50%">
-                <img src="img/OSK.jpg" alt="" width="50%">
-                <img src="img/OSK.jpg" alt="" width="50%">
+
+    <div class="container my-5">
+        <div class="row justify-content-left">
+
+            <div class="col-md-6">
+                <img src="IMG/OIP-removebg-preview.png" width="100%"/>
             </div>
-            <div class="col-md-6 height bg-secondairy">
-                <h1>About me</h1>
+
+            <div class="col-md-6 mt-5">
+                <h1 class="display-3 fw-bold">About me</h1>
+                <p class="fs-5">
+                    Mijn naam is Jayden Meriaan. Ik ben een beginnende Software Developer. Ik ben 17 jaar oud, geboren
+                    in Zoetermeer en woon momenteel in Pijnacker.
+                </p>
+                <p class="fs-5">
+                    Mijn hobby’s zijn: naar buiten gaan met vrienden, gamen of slapen.
+                </p>
+                <p class="fs-5">
+                    <strong>In mijn portfolio vertel ik over mijn skills, ervaring en contactgegevens.</strong>
+                </p>
             </div>
         </div>
-
-        <div class="row text-center">
-            <div class="col-md bg-light">
-                <p>Portfolio Jayden</p>
-            </div>
-        </div>
-
     </div>
+
+
+    <footer class="bg-secondary text-center text-white py-4 mt-auto">
+        Portfolio van Jayden &copy;
+    </footer>
 
 </body>
 
